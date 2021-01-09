@@ -1,3 +1,9 @@
+## Prerequisite
+
+- nodejs
+- awscli
+- serverless
+
 ## USAGE:
 
 1. To create a new project, execute the below command

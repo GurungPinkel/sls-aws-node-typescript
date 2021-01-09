@@ -29,7 +29,7 @@
     "src/**/*.{ts,tsx}": [
       "eslint --ext .tsx --ext .ts ./ --fix"
     ],
-    "./**": [
+    "src/**/*": [
       "prettier --write ."
     ]
   },

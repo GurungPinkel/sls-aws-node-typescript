@@ -1,2 +1,17 @@
+# package directories
 node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.build
+directories
+.webpack
+.webpackCache
+dist
 .vscode
+.env.yml
+# config/dev/*.yml
+# config/staging/*.yml
+# config/production/*.yml
+# .DS_Store

@@ -4,23 +4,36 @@
   "description": "Serverless Typescript boilerplate",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pinkel Gurung",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
     "@types/aws-lambda": "^8.10.70",
     "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^14.14.20",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "aws-sdk": "^2.824.0",
+    "babel-loader": "^8.2.2",
+    "cache-loader": "^4.1.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "fork-ts-checker-webpack-plugin": "^6.0.8",
     "husky": "^4.3.7",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
-    "typescript": "^4.1.3"
+    "serverless-webpack": "^5.3.5",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.12.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-node-externals": "^2.5.2"
   },
   "dependencies": {
     "aws-lambda": "^1.0.6"

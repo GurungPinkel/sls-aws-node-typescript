@@ -9,9 +9,10 @@ directories
 .webpack
 .webpackCache
 dist
+
 .vscode
+.DS_Store
 .env.yml
 # config/dev/*.yml
 # config/staging/*.yml
 # config/production/*.yml
-# .DS_Store

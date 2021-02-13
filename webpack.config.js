@@ -31,6 +31,12 @@ module.exports = {
               cacheDirectory: path.resolve(".webpackCache")
             }
           },
+          {
+            loader: "ts-loader",
+            options: {
+              transpileOnly: true
+            }
+          },
           "babel-loader"
         ]
       }
